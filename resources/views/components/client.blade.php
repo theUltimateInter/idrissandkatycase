@@ -121,17 +121,17 @@ nav{
   <p class="section-title m-5 nos" @style('color: #f1592a;') >Listes des clients, Maître d'ouvrages, qui nous ont faits confiance :</p>
   <div class="gallery col-md-12">
     <form action="{{route('detailsProjet')}}" method="get">
-        <div class="row">
+        <div class=" d-flex">
             
             @foreach ($maitres as $m)
-            <div class="card col-3" style="width: 18rem;">
-                <img src="{{asset('storage/'.$m->logo) }}"  class="card-img-top" >
-                <div class="card-body">
+            <div class="card col-3" @style(["width: 15rem;" ,"border : none" ,"margin : 10px "])>
+                <img src="{{asset('storage/'.$m->logo) }}" @style(["height : 150px"])  class="card-img-top" >
+                
                   <button  value="{{$m->nom}}"  name="ville" @style("visibility : none") class="stretched-link"></button>
-                </div>
+                
               </div>
 
-
+ 
 
                 {{-- <img class="col-3 card-img"  src="{{ asset('storage/'.$m->logo) }}"> 
                 <button type="submit" target="_blank" value="{{$m->nom}}"><img  src="{{ asset('iconP.svg') }}"   ></button> 
