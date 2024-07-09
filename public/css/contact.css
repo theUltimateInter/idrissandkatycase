@@ -1,0 +1,35 @@
+#map {
+    height: 500px;
+  }
+  button.btn-light{
+          color: white;
+          font-weight: 200;
+          font-size: 15px;
+          background-color: #e1592a;
+          border-radius: 75px;
+          width: 45%;
+          cursor: pointer;
+      }
+
+      button.btn-light:hover {
+        color:white;
+        border: none;
+          background: #ff4c11;
+          box-shadow: #ff8c00 4px 5px 14px;
+      }
+      
+      @media (max-width: 998px){
+          .ContactForm{
+            margin-bottom: 2%
+          }
+      }
+.contact_container{
+overflow: hidden;}
+.formCard{
+/* border-color: #ff5900; */
+justify-content: center;
+}
+.focus-border-color:focus {
+  border-color: #ff5900; 
+  box-shadow: 0 0 0 0.25rem rgba(255, 81, 0, 0.25); 
+}

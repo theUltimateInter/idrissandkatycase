@@ -1,0 +1,43 @@
+.charte{
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #e7e7e7;
+    color: black
+  }
+ 
+  h1.nos{
+    font-weight: 90;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+  }
+  
+  .column{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+  }
+  .ico{
+    padding-top: 5%;
+    width: 80%;
+    font-size: 20px;
+    min-width: 40%;
+    font-family:'sans-serif',
+    
+  }
+  .line{
+    background: white;
+    width: 10%;
+    height: 3px;
+    margin-bottom: 1.5%;
+  }
+
+  .line:hover{
+    background: #e1592a;
+  }
+  .promise{
+    color: #476fe6;
+    font-family: 'Courier New', Courier, monospace;
+  }

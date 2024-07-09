@@ -1,0 +1,57 @@
+.contact {
+    padding: 8px 12px;
+    background-color: #e1592a;
+    border: none;
+    outline: none;
+    border-radius: 75px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;align-items:center; justify-content: center;
+}
+
+.contact  a{
+    color: white; 
+    font-weight: 200;
+    font-size: 30px; 
+    align-items:center; 
+    justify-content: center;
+    padding-top: -20px;
+}
+.contact:hover {
+    background: #ff4c11;
+    box-shadow: #ff8c00 4px 5px 10px;
+    a{
+        color: white;
+    }
+}
+
+.navbar-brand {
+    margin-left: auto; /* Pushes the brand/logo to the right */
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Centers the links */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav{
+    position: sticky;
+    top:0;
+  
+}
+.nav-item {  padding:5px;
+    text-align: center; /* Centers the text within each link */
+    
+}
+.nav-link {
+    width: 120px;/* Centers the text within each link */
+  
+    
+}
+
+
+.logo{
+    height: 60px;
+}

@@ -1,0 +1,19 @@
+.col-md-4{
+    padding: 3%;
+}
+.icon{
+    padding: 10px;
+}
+h2{
+    
+    margin-top: 12px
+}
+.services {
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    
+}
+#services{
+    background-color: aliceblue;
+}

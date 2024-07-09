@@ -1,0 +1,13 @@
+.detailsImg .card-img-left:hover{
+    opacity: 0.9;
+    cursor: pointer;
+
+    
+}
+.block .card{
+    border: none
+}
+
+.block{
+    margin-top: 2%
+}   

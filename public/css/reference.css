@@ -1,0 +1,42 @@
+.references-section {
+    padding: 50px 0;
+    background-color: #b2d1ff;
+  }
+  .references-container{
+    padding-bottom: 5%;
+  }
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 90;
+    font-family:sans-serif;
+
+  
+  } 
+  .nos{
+    font-weight: 90;
+    font-family:sans-serif;
+
+  }
+ 
+  .reference-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reference-list li {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: max-content;
+    
+  }
+  
+  @media (max-width: 767px) {
+    .reference-list li {
+      font-size: 16px;
+    }
+  }
+  

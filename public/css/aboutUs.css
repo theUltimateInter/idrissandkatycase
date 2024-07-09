@@ -1,0 +1,117 @@
+  
+   
+    @keyframes zoom-in {
+        from {
+          opacity: 0; 
+          transform: scale(0.5); 
+        }
+        to {
+          opacity: 1;
+          transform: scale(1); 
+        }
+      }
+      
+      
+      .apropos h1 {
+        animation-name: zoom-in;      
+        animation-duration: 1.5s;        
+         animation-timing-function: ease-out; 
+      }
+      
+          #aboutUs {
+          overflow: hidden; 
+      }
+      
+      #aboutUs h1 {
+          font-weight: bold;
+          margin-bottom: 30px;
+      }
+      
+      #aboutUs p {
+          font-size: 18px;
+          line-height: 1.6;
+          font-style: oblique;
+      }
+      
+      
+      
+      
+      .chapitre{  
+        width: 80%;
+        text-align: justify;
+      
+      }
+      .eco{
+        margin: 4% 0 
+      }
+      
+      .apropos{
+        overflow: hidden;
+        padding: 3% 10%;
+      }
+      .apropos .text{
+        padding-bottom: 1%;
+        
+      }
+      .apropos p{
+        text-align: justify;
+        justify-content: center;
+      }
+      .apropos h1{
+        margin-bottom: 3%
+      }
+
+
+      .line-animation, .line-animation2 {
+        position: relative;
+    }
+
+    /* ******line1*********8 */
+    
+    .line-animation::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 2px; /* Hauteur de la ligne */
+        background-color: #424242; /* Couleur de la ligne */
+        animation: moveLine 3s linear forwards infinite; /* Animation de déplacement de la ligne */
+    }
+    
+    @keyframes moveLine {
+        0% {
+            width: 0; /* Largeur initiale de la ligne */
+            left: 0; /* Position initiale de la ligne */
+        }
+        100% {
+            width: 100%; /* Largeur finale de la ligne */
+            left: 100%; /* Position finale de la ligne */
+        }
+    }
+    
+/* *******line2*******8 */
+
+.line-animation2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 2px; /* Height of the line */
+    background-color: black; /* Color of the line */
+    animation: moveLine2 3s linear forwards infinite; /* Animation for moving the line */
+}
+
+@keyframes moveLine2 {
+    0% {
+        width: 0%; /* Initial width of the line */
+        right: 0%; /* Initial position of the line */
+    }
+    100% {
+        width: 100%; /* Final width of the line */
+        right: 100%; /* Final position of the line */
+    }
+}
+
+  
