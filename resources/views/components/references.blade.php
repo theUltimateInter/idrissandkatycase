@@ -19,12 +19,12 @@
     <div class="row justify-content-center align-items-center">
       <div class="col-md-4">
         <ul class="reference-list">
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Immeubles de haut standing</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Immeubles de logement social</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Maisons de bienfaisance</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Centres commerciaux</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Bureaux</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Mosquées</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Immeubles de haut standing</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Immeubles de logement social</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Maisons de bienfaisance</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Centres commerciaux</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Bureaux</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Mosquées</li>
         </ul>
       </div>
       <div class="col-md-4 ">
@@ -32,12 +32,12 @@
       </div>
       <div class="col-md-4">
         <ul class="reference-list">
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Gares de péages autoroutiers</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Gare maritime de Tanger</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Usines</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Centres de sport</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Complexes résidentiels d'habitation</li>
-          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: white;"></i></span>Maisons de jeunes filles</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Gares de péages autoroutiers</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Gare maritime de Tanger</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Usines</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Centres de sport</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Complexes résidentiels d'habitation</li>
+          <li><span style="margin-right: 12px;"><i class="fa-solid fa-trowel-bricks fa-fade" style="color: #f1592a;"></i></span>Maisons de jeunes filles</li>
         </ul>
       </div>
     </div>

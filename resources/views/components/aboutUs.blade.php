@@ -16,7 +16,7 @@
       
       <h1 class="text-center m-5 " @style('font-size: 200%')>À Propos de <strong @style('color: #f1592a;')>Copref</strong> Sarl </h1>
       <div class="container">
-          <span ><i class="fa-solid fa-quote-left fa-2xl eco"></i></span>
+          <span ><i class="fa-solid fa-quote-left fa-2xl eco" @style('color: #f1592a;')></i></span>
              <p>Forte de ses 25 ans d'expérience, COPREF est une SARL spécialisée dans les travaux de Bâtiment, de Construction et d'Aména- gement Divers. Dotée d'un capital de 15 millions de dirhams et d'un siège social si- tué à Kenitra, La sté COPREF compte parmi ses clients, plusieurs établissements publics et grandes entreprises privées de renoms à l'échelle nationale, en l'occurrence entre autres, Holding Al Omrane, la Société Na- tionale des Autoroutes du Maroc, le groupe DELTA Holding, ONAPAR, ASMA INVEST, la société d'aménagement du port de tanger ville «SGPTV», le Groupe ADDOHA, RABAT REGION AMENAGEMENTS..., ce qui traduit la confiance dont bénéficie la Société de la part des professionnels du secteur.
         <br> En effet, le sérieux, l'engagement et le professionnalisme constituent les fonda- mentaux du travail de COPREF manifestés dans l'ensemble de ses niveaux d'organisa- tion (leadership, management, supervision, coordination et exécution), ce qui lui a confé- ré une réputation solide en la matière et lui a permis l'obtention des meilleures classifica- tions existantes dans son secteur d'activité (Classe 1 délivrée par le Ministère de l'Equip- ment et classe 6 délivrée par le Ministère de l'Habitat).
         Au fil des années, et grâce à la diversité des projets qu'elle a menés avec succès, COPREF SARL s'est construite un capital de connais- sance, d'expertise et de maitrise dans les domaines du Bâtiment, de la Construction et de l'Aménagement qu'elle met à votre disposition pour faire aboutir des projets in- novants et contribuer au développement de notre pays.
@@ -33,7 +33,7 @@
              </div>
      
             <!-- <div>ADIL KADIRI HASSANI YAMANI <p>Directeur général</p></div> -->
-          <span ><i class="fa-solid fa-quote-right fa-2xl eco d-flex justify-content-end"></i></span>
+          <span ><i class="fa-solid fa-quote-right fa-2xl eco d-flex justify-content-end" @style('color: #f1592a;')></i></span>
       </div> 
       
       </div>

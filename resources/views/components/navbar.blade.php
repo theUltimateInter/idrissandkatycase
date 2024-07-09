@@ -64,7 +64,6 @@
           @auth
           <div class="d-flex">
             <form class="d-flex">
-                
                 <a href="/ajouter" class="btn btn-secondary mx-2" >Ajouter Projet</a>
                 <a href="/ajouterCategorie" class="btn btn-outline-dark mx-2">Ajouter Catégorie</a>
       

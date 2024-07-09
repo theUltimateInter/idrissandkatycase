@@ -31,6 +31,7 @@
 <br>
 
 <div class="container">
+  <a href="/ajouterMaitre" class="btn btn-primary">Ajouter Maitre Ouvrage</a>
 <table class="table table-hover mt-3">
   <thead>
     <tr>

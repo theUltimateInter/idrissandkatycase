@@ -5,10 +5,19 @@ namespace App\Http\Controllers;
 use App\Models\Categorie;
 use App\Models\Project;
 use App\Models\ProjectImage;
+use App\Models\MaitreOuvrage;
 use Illuminate\Http\Request;
 
 class ProjectController extends Controller
 {
+    public function client(){
+        $maitres = MaitreOuvrage::all();
+        return view("components.client",compact("maitres"));
+    }
+    public function client_project(String $name){
+        $projects = Project::where("maitreOuvrage" , $name)->get();
+        return redirect('http://127.0.0.1:8000/searchProject?nomprojet=&ville='.$name.'&categorie=');
+    }
     public function addObservation(Request $request, $id)
 {
     $project = Project::findOrFail($id);
@@ -128,8 +137,8 @@ public function index(Request $req)
        return redirect("/admin")->with("success","Le Produit Est Bien Ajouté");
     }
     public function show(Request $req){
-        $project = Project::findOrFail($req->id);
-        return view("components.details",compact("project"));
+        $filtred = Project::where('id',$req->id)->get();
+        return view("components.details",compact("filtred"));
     }
     public function destroy(Request $req){
         $project = Project::findOrFail($req->id);
@@ -192,5 +201,23 @@ public function index(Request $req)
     }
 }
 
-    
+    public function ajouterMaitreOuvrage(){
+        return view("Admin.ajouter_maitre");
+    }
+
+    public function storeMaitreOuvrage(Request $request){
+        $validatedData = $request->validate([ 
+            "nom" => "required|string", 
+            "logo" => "nullable|mimes:png,jpeg", 
+        ]);
+        if ($request->hasFile("logo")) {
+           $fileName = time().$request->file("logo")->getClientOriginalName() ;
+           $path = $request->file("logo")->storeAs("logos" , $fileName , "public");
+           $validatedData["logo"] = $path ;
+        }
+        MaitreOuvrage::create($validatedData);
+        return redirect()->back();
+    }
+
 }
+

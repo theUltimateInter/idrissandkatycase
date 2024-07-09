@@ -52,7 +52,6 @@
       <div class="row row-cols-1 row-cols-md-4 g-0">
         <div class="col-md-6 justify-content-center p-4 align-items-center ">
           <h1 class="gallery-title text-center " style="font-family: serif; color: #e1592a; font-size: 520%">COPREF</h1>
-          <p class="mt-0 text-center" style="font-family: 'NOTO Serif', Serif; color:#cdcdcd">"Exploration architecturale : Galerie de Nos Projets"</p>
         </div>
         <div class="col galleryColumn">
           <div class="card carta">

@@ -61,7 +61,7 @@
         </div>
         
         <div class="col">
-            <button type="submit" class="btn btn-light border">Rechercher</button>
+            <input type="submit" class="btn btn-light border" value="Rechercher" formtarget="_blank">
         </div>
     </div>
 </form>
@@ -149,7 +149,7 @@
                                 <p maxlength="3" style="font-weight: 600;">Maitre d'ouvrage: {{ $item->maitreOuvrage }}</p>
                                 <p maxlength="3" style="font-weight: 600;">Architecte: {{ $item->architecte }}</p>
                                 <hr>
-                                <a href="/details/{{ $item->id }}" class="btn btn-light" style="width: 80%;">Détails</a>
+                                <a href="/details/{{ $item->id }}" class="btn" target="_blank" @style(["width: 80%;" , "background-color : #f1592a;","color : white"])>Détails</a>
                             </div></div>
                         </div>
                     </div>

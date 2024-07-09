@@ -119,13 +119,32 @@ nav{
 <x-navbar/>
 
   <p class="section-title m-5 nos" @style('color: #f1592a;') >Listes des clients, Maître d'ouvrages, qui nous ont faits confiance :</p>
-  <div class="gallery">
-      <img class="card-img" src="{{ asset('LogosMO/Addoha.jpg') }}" alt="Client 1">
-      <img class="card-img" src="{{ asset('LogosMO/Invest.png') }}" alt="Client 7">
-      <img class="card-img" src="{{ asset('LogosMO/JAMAI.png') }}" alt="Client 8">
-      <img class="card-img" src="{{ asset('LogosMO/cnss.jpg') }}" alt="Client 6">
-      <img class="card-img" src="{{ asset('LogosMO/ADM.png') }}" alt="Client 2">
-      <img class="card-img" src="{{ asset('LogosMO/AutoHall.jpg') }}" alt="Client 5">
+  <div class="gallery col-md-12">
+    <form action="{{route('detailsProjet')}}" method="get">
+        <div class="row">
+            
+            @foreach ($maitres as $m)
+            <div class="card col-3" style="width: 18rem;">
+                <img src="{{asset('storage/'.$m->logo) }}"  class="card-img-top" >
+                <div class="card-body">
+                  <button  value="{{$m->nom}}"  name="ville" @style("visibility : none") class="stretched-link"></button>
+                </div>
+              </div>
+
+
+
+                {{-- <img class="col-3 card-img"  src="{{ asset('storage/'.$m->logo) }}"> 
+                <button type="submit" target="_blank" value="{{$m->nom}}"><img  src="{{ asset('iconP.svg') }}"   ></button> 
+                <br> --}}
+  
+    
+            
+            @endforeach
+        </div>
+      
+    </form>
+  
+      
   </div>
    
   <x-footer/>

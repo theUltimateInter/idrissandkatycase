@@ -23,11 +23,14 @@ use App\Http\Controllers\CategorieController;
 
 Route::view("/", "welcome")->name("home");
 Route::view("/contact", "components.contact")->name("contact");
-Route::view("/references", "aboutReferences")->name("contact");
-Route::view("/services", "aboutServices")->name("contact");
-Route::view("/client", "components.client")->name("contact");
+Route::view("/references", "aboutReferences")->name("references");
+Route::view("/services", "aboutServices")->name("services");
+
+Route::get("/client", [ProjectController::class , "client"])->name("client");
+
 Route::get('/AllProjects', [ProjectController::class , "index"])->name("AllProjects");
 Route::get('/searchProject', [ProjectController::class, "indexDetails"])->name("detailsProjet");
+
 
 Route::get("/details/{id}",[ProjectController::class,"show"]);
 
@@ -49,7 +52,8 @@ Route::middleware("auth")->group(function() {
     Route::get("/update/{id}", [ProjectController::class , "edit"] );
     Route::put("/update/{id}", [ProjectController::class , "update"] );
     Route::get('/admin/{id}/modifierVideo', [ProjectController::class, 'showUpdateVideoForm'])->name('projects.showUpdateVideoForm');
-
+    Route::get("/ajouterMaitre",[ProjectController::class , "ajouterMaitreOuvrage"]);
+    Route::post("/storeMaitre",[ProjectController::class , "storeMaitreOuvrage"]);
 // Route to handle the video update
 Route::put('/projects/{id}/update-video', [ProjectController::class, 'updateVideo'])->name('projects.updateVideo');
     Route::post("/logout" ,[AdminController::class , "deconect"] );
